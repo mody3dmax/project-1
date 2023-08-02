@@ -1,0 +1,101 @@
+.continer-orderpage{
+    width: 1000px;
+    height: 600px;
+    font-family: arial;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image-orderpage{
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.details-orderpage{
+    width: 550px;
+    height: 600px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.frame-details-orderpage{
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid black; */
+    margin: 40 auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline double;
+    text-shadow: 2px 2px 5px rgb(0, 4, 228);
+    
+}
+
+.filed-page{
+    width: 500px;
+    /* border: 2px solid black; */
+    margin: 40 auto;
+    padding: 15px;
+}
+.p-adress-orderpage{
+    font-size: 18px;
+    padding: 5px;
+    color: rgb(63, 63, 63);
+    margin: 10px auto;
+    
+}
+
+.btn-adress-orderpage{
+    width: 440px;
+    height: 40px;
+    font-size: 18px;
+    margin: 15px auto;
+    padding: 5px;
+}
+
+#dishes{
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    
+}
+
+.note-adress-orderpage{
+    font-size: 18px;
+    margin: 40px auto;
+    color: rgb(63, 63, 63);
+
+}
+
+.submit-btn-orderpage{
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #2b2626;
+    margin: 0 100px
+}
+.submit-btn-orderpage:hover {
+    padding-right: 10px;
+    transition: all .5s;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(255, 173, 65);
+
+}
+.submit-btn-orderpage:active {
+    font-size: 22;
+    padding-right: 20px;
+    padding-left: 10px;
+    background-color: rgb(79, 104, 248) ;
+    outline: none;
+    border-radius: 10px;
+
+}

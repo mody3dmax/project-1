@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+}
+
+.container-loginpage {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-image: url(../IMG/Login/bg.jpg); */
+}
+
+.main-loginpage {
+    width: 40%;
+    height: 430px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    border-radius: 30px;
+    border: 3px dotted #453d52;
+    background-color: #2b2626;
+
+}
+
+.image-loginpage {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+
+}
+
+.title-loginpage {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 4px 10px rgb(218, 240, 21);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    opacity: .8;
+
+}
+
+.inputs-login {
+    width: 85%;
+    height: 70%;
+    margin: 45px auto;
+    padding: 10px;
+    position: absolute;
+    left: 26px;
+
+}
+
+.icon {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    top: 19px;
+    position: absolute;
+}
+
+.datafiled-login {
+    width: 90%;
+    height: 15%;
+    margin: 5px 30px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.datafiled-login:focus {
+    background-color: rgb(225, 232, 255);
+    border-left: 5px solid blue;
+}
+
+.Login-botton {
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 70px;
+    font-size: 35px;
+    font-family: arial;
+    margin: 15px 60px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgb(218, 240, 21);
+    /* border: 1px solid red; */
+}
+
+.Login-botton:hover {
+    background-color: rgb(255, 173, 65);
+    color: white;
+    cursor: pointer;
+    padding-right: 5px;
+    transition: .5s;
+}
+
+.Login-botton:active {
+    background-color: rgb(79, 104, 248);
+    font-size: 32px;
+}
+
+.design-loginpage {
+    position: relative;
+    margin: auto;
+}
+
+.footer-loginpage {
+    position: absolute;
+    /* border: 2px solid black; */
+    background: transparent;
+    top: 360px;
+    left: 15px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(155, 155, 155);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hlink-footer-loginpage {
+    width: 550;
+    color: rgb(51, 51, 177);
+    /* text-decoration: underline; */
+    font-family: sans-serif;
+}

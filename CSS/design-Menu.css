@@ -1,0 +1,49 @@
+.p-middle-menu {
+    margin: 20px auto;
+    width: 93%;
+    font-size: 80px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 4px dashed black;
+}
+
+
+.menu-items {
+    width: 18%;
+    border: 2px solid rgb(219, 219, 219);
+    margin: 15px 15px;
+    margin-left: 60px;
+    background-color: rgb(255, 251, 245);
+    border-radius: 20px;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.content-menu-item {
+    border-radius: 100px;
+    width: 80%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+.name-menu-item {
+    font-size: 35px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.order:hover {
+    letter-spacing: .5px;
+    color: rgb(40, 77, 177);
+    background-color: rgb(253, 189, 70);
+    border-radius: 5px;
+    transition: all .5s;
+}
+.order:active {
+    font-size: 32px;
+    transition: all .5s;
+}
